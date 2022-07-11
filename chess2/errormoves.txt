@@ -1,0 +1,81 @@
+********List of possible errors*********
+
+
+1: legal move
+
+10: white move is at the same location
+20: white move is off the board
+30: white pawn's first move is illegal
+40: white pawn's general move is illegal
+50: white pawn taking a piece is illegal
+60: white rook's move is illegal
+70: white knight's move is illegal
+80: white bishop's move is illegal
+90: white king's move is illegal
+100: white queen's move is illegal 
+
+200: black move is at the same location
+210: black move is off the board
+220: black pawn's first move is illegal
+230: black pawn's general move is illegal 
+240: black pawn taking a piece is illegal
+250: black rook's move is illegal
+260: black knight's move is illegal
+270: black bishop's move is illegal
+280: black king's move is illegal
+290: black queen's move is illegal 
+
+400: nothing happened
+
+
+same color errors
+
+11: white capturing white
+12: black capturing black  
+
+
+blocking errors
+
+ROOK:
+20: something is blocking rook vertically down
+30: something is blocking rook vertically up
+40: something is blocking rook horizontally right
+50: something is blocking rook horizontally left
+
+BISHOP:
+60: blocking bishop diagonally up right
+70: blocking bishop diagonally down right
+80: blocking bishop diagonally up left 
+90: blocking bishop diagonally down left 
+
+QUEEN: 
+100: blocking queen vertically up 
+110: blocking queen vertically down 
+120: blocking queen horizontally right 
+130: blocking queen horizontally left   
+
+140: blocking queen diagonally up right
+150: blocking queen diagonally down right
+160: blocking queen diagonally up left 
+170: blocking queen diagonally down left 
+
+
+castling errors
+
+21: white castle left invalid
+22: white castle right invalid
+23: white can't castle
+
+24: black castle left invalid
+25: black castle right invalid 
+26: black can't castle
+
+---------------
+point system to keep track of what pieces have been taken 
+
+pawns  - 10
+knight - 20
+bishop - 30
+rook   - 50
+queen  - 90
+king   - 500
